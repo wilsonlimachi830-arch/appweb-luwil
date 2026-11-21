@@ -1,66 +1,219 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#172554">
-  <title>Tienda Online | Catálogo</title>
-  <meta name="description" content="Explora nuestro catálogo y realiza tus pedidos por WhatsApp.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="site-header" id="inicio">
-    <a class="brand" href="#inicio" aria-label="Ir al inicio">
-      <span class="brand-mark">C</span><span class="brand-name">TU <b>TIENDA</b></span>
-    </a>
-    <form class="search" id="searchForm" role="search">
-      <input id="searchInput" type="search" placeholder="Buscar productos..." aria-label="Buscar productos">
-      <button aria-label="Buscar" type="submit">⌕</button>
-    </form>
-    <nav class="main-nav" aria-label="Navegación principal">
-      <a href="#inicio">Inicio</a><a href="#productos">Productos</a><a href="#contactos">Contactos</a>
-    </nav>
-    <button class="mobile-menu" id="menuToggle" aria-label="Abrir menú">☰</button>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#172554" />
+    <title>Tienda Online LuWIl store</title>
+    <meta
+      name="description"
+      content="Explora nuestro catálogo y realiza tus pedidos por WhatsApp."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="inicio">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <img class="brand-mark" src="img/LOGO.jpeg" alt="">
+        <span class="titulo-animado">Lu-Wil <b>Store</b></span>
+      </a>
+      <form class="search" id="searchForm" role="search">
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Buscar productos..."
+          aria-label="Buscar productos"
+        />
+        <button aria-label="Buscar" type="submit">⌕</button>
+      </form>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a><a href="#productos">Productos</a
+        ><a href="#contactos">Contactos</a>
+      </nav>
+      <button class="mobile-menu" id="menuToggle" aria-label="Abrir menú">
+        
+      </button>
+    </header>
 
-  <main>
-    <section class="hero" aria-label="Productos destacados">
-      <div class="hero-slides" id="heroSlides">
-        <div class="hero-slide active"><img src="https://m.media-amazon.com/images/I/91Kjdc2g7pL.jpg" alt="Ideas para organizar el hogar" fetchpriority="high"></div>
-        <div class="hero-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyAtZkDhnRoYPGQbIMNfTMAaViOcLNegKXgMeCYtPsbShNmu9MUoJ825E&s=10" alt="Organizadores para el hogar" loading="lazy"></div>
-        <div class="hero-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4xcF39v3eF--2NHvp5G6f7PtueOIB3KKSh9Ei3FaMdhrhzMy9j1fnskU&s=10" alt="Accesorios organizadores" loading="lazy"></div>
-        <div class="hero-slide"><img src="https://m.media-amazon.com/images/I/815WleRF1IL.jpg" alt="Soluciones de almacenamiento" loading="lazy"></div>
-      </div>
-      <div class="hero-shade"></div>
-      <div class="hero-copy"><span class="eyebrow">ORDEN • ESTILO • PRACTICIDAD</span><h1>Todo en su lugar,<br>con estilo.</h1><p>Descubre productos prácticos para organizar tus espacios.</p><a class="hero-cta" href="#productos">Ver productos <span>→</span></a></div>
-      <div class="hero-dots" id="heroDots" aria-label="Seleccionar diapositiva"></div>
-    </section>
+    <main>
+      <section class="hero" aria-label="Productos destacados">
+        <div class="hero-slides" id="heroSlides">
+          <div class="hero-slide active">
+            <img
+              src="https://m.media-amazon.com/images/I/91Kjdc2g7pL.jpg"
+              alt="Ideas para organizar el hogar"
+              fetchpriority="high"
+            />
+          </div>
+          <div class="hero-slide">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyAtZkDhnRoYPGQbIMNfTMAaViOcLNegKXgMeCYtPsbShNmu9MUoJ825E&s=10"
+              alt="Organizadores para el hogar"
+              loading="lazy"
+            />
+          </div>
+          <div class="hero-slide">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4xcF39v3eF--2NHvp5G6f7PtueOIB3KKSh9Ei3FaMdhrhzMy9j1fnskU&s=10"
+              alt="Accesorios organizadores"
+              loading="lazy"
+            />
+          </div>
+          <div class="hero-slide">
+            <img
+              src="https://m.media-amazon.com/images/I/815WleRF1IL.jpg"
+              alt="Soluciones de almacenamiento"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <span class="eyebrow">ORDEN • ESTILO • PRACTICIDAD</span>
+          <h1>Todo en su lugar,<br />con estilo.</h1>
+          <p>Descubre productos prácticos para organizar tus espacios.</p>
+          <a class="hero-cta" href="#productos">Ver productos <span>→</span></a>
+        </div>
+        <div
+          class="hero-dots"
+          id="heroDots"
+          aria-label="Seleccionar diapositiva"
+        ></div>
+      </section>
 
-    <section class="catalog-section" id="productos">
-      <div class="section-heading"><div><span class="eyebrow dark">NUESTRO CATÁLOGO</span><h2>Productos para ti</h2><p>Elige tu favorito y realiza tu pedido directamente por WhatsApp.</p></div><span class="result-count" id="resultCount"></span></div>
-      <div class="catalog-layout">
-        <aside class="catalog-aside"><div class="aside-icon">✦</div><h3>Compra fácil</h3><p>Explora el catálogo, revisa los detalles y envíanos tu pedido.</p><div class="aside-line"></div><p class="aside-small">¿Tienes alguna consulta?</p><a href="https://wa.me/59169756518" target="_blank" rel="noopener">Escríbenos por WhatsApp ↗</a></aside>
-        <div class="product-grid" id="productGrid" aria-live="polite">
-          <div class="loading-state">Cargando productos…</div>
+      <section class="catalog-section" id="productos">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow dark">NUESTRO CATÁLOGO</span>
+            <h2>Productos para ti</h2>
+            <p>
+              Elige tu favorito y realiza tu pedido directamente por WhatsApp.
+            </p>
+          </div>
+          <span class="result-count" id="resultCount"></span>
+        </div>
+        <button class="cart-floating-toggle" id="cartFloatingToggle" type="button" aria-controls="carrito" aria-expanded="false">
+          <span class="cart-toggle-icon">🛒</span><span>Mi carrito</span><b id="floatingCartCount">0</b>
+        </button>
+        <section class="cart-panel cart-collapsed" id="carrito" aria-label="Carrito de compras">
+          <div class="cart-heading">
+            <div>
+              <span class="eyebrow dark">TU PEDIDO</span>
+              <h3>Mi carrito <span class="cart-count" id="cartCount">0</span></h3>
+            </div>
+            <div class="cart-heading-actions">
+              <button class="clear-cart-btn" id="clearCart" type="button">Vaciar</button>
+              <button class="cart-collapse-btn" id="cartCollapse" type="button" aria-label="Minimizar carrito">−</button>
+            </div>
+          </div>
+          <div id="cartItems" class="cart-items">
+            <p class="cart-empty">Aún no agregaste productos. Explora el catálogo y agrega tus favoritos.</p>
+          </div>
+          <div class="cart-summary">
+            <span>Total del pedido</span>
+            <strong id="cartTotal">Bs 0,00</strong>
+          </div>
+          <button class="checkout-btn" id="checkoutWhatsApp" type="button" disabled>
+            Finalizar pedido por WhatsApp
+          </button>
+          <p class="cart-help">Revisa tu pedido. Al continuar, se abrirá WhatsApp con el detalle y el total.</p>
+        </section>
+        <div class="catalog-layout">
+          <aside class="catalog-aside">
+            <div class="aside-icon">✦</div>
+            <h3>Compra fácil</h3>
+            <p>
+              Explora el catálogo, revisa los detalles y envíanos tu pedido.
+            </p>
+            <div class="aside-line"></div>
+            <p class="aside-small">¿Tienes alguna consulta?</p>
+            <a href="https://wa.me/59169756518" target="_blank" rel="noopener"
+              >Escríbenos por WhatsApp ↗</a
+            >
+          </aside>
+          <div class="product-grid" id="productGrid" aria-live="polite">
+            <div class="loading-state">Cargando productos…</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contactos">
+      <div class="footer-main">
+        <div>
+          <a class="brand footer-brand" href="#inicio"
+            ><span ><img class="brand-mark"src="img/LOGO.jpeg" alt=""></span
+            ><span class="brand-name">LuWIl <b>store</b></span></a
+          >
+          <p class="footer-note">
+            Gracias por visitarnos. ¡Estamos listos para atender tu pedido!
+          </p>
+        </div>
+        <div class="social-block">
+          <h3>Síguenos y contáctanos</h3>
+          <div class="social-links">
+            <a
+              class="social tiktok"
+              href="https://www.tiktok.com/@cajitasacrilico1?_r=1&_t=ZS-9BYCKwA1TcL"
+              target="_blank"
+              rel="noopener"
+              aria-label="TikTok"
+              ><svg viewBox="0 0 24 24">
+                <path
+                  d="M16.6 3c.3 2 1.4 3.2 3.4 3.3v3.1a8 8 0 0 1-3.4-.9v6.7a5.8 5.8 0 1 1-5.8-5.8c.4 0 .8 0 1.2.1v3.3a2.6 2.6 0 1 0 1.5 2.4V3z"
+                /></svg
+            ></a>
+            <a
+              class="social facebook"
+              href="https://www.facebook.com/share/1J7CJRVwgd/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+              ><svg viewBox="0 0 24 24">
+                <path
+                  d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V13h2.8v8z"
+                /></svg
+            ></a>
+            <a
+              class="social whatsapp"
+              href="https://wa.me/c/59169756518"
+              target="_blank"
+              rel="noopener"
+              aria-label="Catálogo de WhatsApp"
+              ><svg viewBox="0 0 24 24">
+                <path
+                  d="M20 11.7a8 8 0 0 1-11.8 7L4 20l1.3-4A8 8 0 1 1 20 11.7ZM12 5.2a6.4 6.4 0 0 0-5.5 9.7l.2.4-.8 2.3 2.4-.8.4.2A6.4 6.4 0 1 0 12 5.2Zm3.5 9.1c-.2-.1-1.2-.6-1.4-.6s-.3-.1-.5.1l-.6.7c-.1.2-.3.2-.5.1a5.2 5.2 0 0 1-2.6-2.3c-.2-.3.2-.4.6-1 .1-.2 0-.3 0-.4l-.6-1.5c-.2-.4-.4-.4-.5-.4h-.4c-.2 0-.4.1-.6.3-.2.2-.7.7-.7 1.7s.7 1.9.8 2.1a7.6 7.6 0 0 0 3 2.7c1.1.5 1.5.5 2 .4.6-.1 1.2-.5 1.4-1 .2-.5.2-.9.1-1Z"
+                /></svg
+            ></a>
+          </div>
         </div>
       </div>
-    </section>
-  </main>
-
-  <footer id="contactos">
-    <div class="footer-main"><div><a class="brand footer-brand" href="#inicio"><span class="brand-mark">C</span><span class="brand-name">TU <b>TIENDA</b></span></a><p class="footer-note">Gracias por visitarnos. ¡Estamos listos para atender tu pedido!</p></div>
-      <div class="social-block"><h3>Síguenos y contáctanos</h3><div class="social-links">
-        <a class="social facebook" href="https://www.facebook.com/marketplace/profile/100006111662667/?ref=permalink&mibextid=dXMIcH" target="_blank" rel="noopener" aria-label="Facebook Marketplace"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V13h2.8v8z"/></svg></a>
-        <a class="social tiktok" href="https://www.tiktok.com/@cajitasacrilico1?_r=1&_t=ZS-9BYCKwA1TcL" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 3c.3 2 1.4 3.2 3.4 3.3v3.1a8 8 0 0 1-3.4-.9v6.7a5.8 5.8 0 1 1-5.8-5.8c.4 0 .8 0 1.2.1v3.3a2.6 2.6 0 1 0 1.5 2.4V3z"/></svg></a>
-        <a class="social facebook" href="https://www.facebook.com/share/1J7CJRVwgd/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V13h2.8v8z"/></svg></a>
-        <a class="social whatsapp" href="https://wa.me/c/59169756518" target="_blank" rel="noopener" aria-label="Catálogo de WhatsApp"><svg viewBox="0 0 24 24"><path d="M20 11.7a8 8 0 0 1-11.8 7L4 20l1.3-4A8 8 0 1 1 20 11.7ZM12 5.2a6.4 6.4 0 0 0-5.5 9.7l.2.4-.8 2.3 2.4-.8.4.2A6.4 6.4 0 1 0 12 5.2Zm3.5 9.1c-.2-.1-1.2-.6-1.4-.6s-.3-.1-.5.1l-.6.7c-.1.2-.3.2-.5.1a5.2 5.2 0 0 1-2.6-2.3c-.2-.3.2-.4.6-1 .1-.2 0-.3 0-.4l-.6-1.5c-.2-.4-.4-.4-.5-.4h-.4c-.2 0-.4.1-.6.3-.2.2-.7.7-.7 1.7s.7 1.9.8 2.1a7.6 7.6 0 0 0 3 2.7c1.1.5 1.5.5 2 .4.6-.1 1.2-.5 1.4-1 .2-.5.2-.9.1-1Z"/></svg></a>
-      </div></div></div>
-    <div class="footer-bottom"><span>© <span id="year"></span> Tu Tienda. Todos los derechos reservados.</span><span>Pedidos por WhatsApp Business</span></div>
-  </footer>
-  <a class="floating-wa" href="https://wa.me/59169756518" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">☏</a>
-  <script src="app.js" defer></script>
-</body>
+      <div class="footer-bottom">
+        <span
+          >© <span id="year"></span> Tu Tienda. Todos los derechos
+          reservados.</span
+        ><span>Pedidos por WhatsApp Business</span>
+      </div>
+    </footer>
+    <a
+      class="floating-wa"
+      href="https://wa.me/59169756518"
+      target="_blank"
+      rel="noopener"
+      aria-label="Contactar por WhatsApp"
+      >☏</a
+    >
+    <div class="image-lightbox" id="imageLightbox" aria-hidden="true">
+      <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Cerrar imagen">×</button>
+      <img id="lightboxImage" src="" alt="Imagen ampliada del producto">
+      <p id="lightboxCaption"></p>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
 </html>
